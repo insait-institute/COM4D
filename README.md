@@ -1,6 +1,6 @@
 # Inferring Compositional 4D Scenes without Ever Seeing One
 
-[Paper](https://berkegokmen1.github.io/com4d/) | [Project Website](https://berkegokmen1.github.io/com4d/) | [BibTeX](#bibtex)
+[Paper](https://arxiv.org/abs/2512.05272) | [Project Website](https://berkegokmen1.github.io/com4d/) | [BibTeX](#bibtex)
 
 ## Authors
 [Ahmet Berke Gökmen](https://berkegokmen1.github.io/), [Ajad Chattkuli](https://ajadchhatkuli.github.io/), [Luc Van Gool](https://insait.ai/prof-luc-van-gool/), [Danda Pani Paudel](https://insait.ai/dr-danda-paudel/)
@@ -12,8 +12,8 @@
 ## Code will be released!
 
 ## TODO
+- [x] Release Paper
 - [ ] Release Website
-- [ ] Release Paper
 - [ ] Release Code
 - [ ] Release Checkpoints
 

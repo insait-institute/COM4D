@@ -24,7 +24,7 @@ python datasets/preprocess/3dfront_json.py \
 ```
 
 ## DeformingThings4D
-`/animals` has only `.anime` files whereas `/humanoids/` has both `.anime` and `.fbx` files. We'll process them accordingly.
+`/animals` has only `.anime` files whereas `/humanoids` has both `.anime` and `.fbx` files. We'll process them accordingly.
 
 ### Per-frame Mesh Extraction
 
@@ -150,7 +150,7 @@ python datasets/preprocess/render_fixed_cam.py \
     --auto-exposure
 ```
 
-### Json
+### JSON
 ```sh
 python datasets/preprocess/objaverse_json.py \
   --preprocessed-root <objaverse-scaled-preprocessed-out-dir> \

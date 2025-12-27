@@ -53,3 +53,6 @@ htmlcov/
 .mypy_cache/
 .pytype/
 cython_debug/       
+
+./DATASETS
+anime_test

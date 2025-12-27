@@ -15,7 +15,7 @@
 - [x] Release Paper
 - [x] Release Website
 - [x] Release Training Code
-- [ ] Release Dataset Preprocessing Code
+- [x] Release Dataset Preprocessing Code
 - [ ] Release Inference Code
 - [ ] Release Checkpoints
 
@@ -69,7 +69,7 @@ bash scripts/train_com4d.sh
 
 
 ## Dataset Preprocessing
-In progress...
+Please refer to [datasets](./datasets/README.md) folder.
 
 ## Inference
 In progress...

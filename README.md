@@ -20,7 +20,7 @@
 
 ## Training
 ### Environment setup
-We provide `scripts/env.sh` for reproducing our environment. It creates a `com4d`
+We provide `sh/env.sh` for reproducing our environment. It creates a `com4d`
 micromamba environment, installs CUDA 12.4 compatible PyTorch, additional geometry
 libraries, and pulls PyTorch3D from source. If you prefer `conda`, simply replace the
 `micromamba` commands in this script with their `conda` equivalents—the remainder of

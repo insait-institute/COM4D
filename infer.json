@@ -1,0 +1,36 @@
+{
+    "teaser2048": {
+        "tag": "teaser2048",
+        "data_dir": "assets/teaser",
+        "transformer_dir": "/work/berke_gokmen/ckpts/com4d_final",
+        "num_tokens": 2048,
+        "first_frame_idx": 5,
+        "frames_start_idx": 0,
+        "frames_end_idx": 100,
+        "frame_stride": 2,
+        "scene_num_parts": 4,
+        "dynamic_num_parts": 2,
+        "scene_block_size": 16,
+        "dynamic_ar_block_size": 6,
+        "dynamic_max_memory_frames": 8,
+        "scene_mix_cutoff": 50,
+        "dynamic_mix_cutoff": 20
+    },
+    "teaser1024": {
+        "tag": "teaser1024",
+        "data_dir": "assets/teaser",
+        "transformer_dir": "/work/berke_gokmen/ckpts/com4d_final",
+        "num_tokens": 1024,
+        "first_frame_idx": 5,
+        "frames_start_idx": 0,
+        "frames_end_idx": 100,
+        "frame_stride": 2,
+        "scene_num_parts": 4,
+        "dynamic_num_parts": 2,
+        "scene_block_size": 16,
+        "dynamic_ar_block_size": 6,
+        "dynamic_max_memory_frames": 8,
+        "scene_mix_cutoff": 50,
+        "dynamic_mix_cutoff": 20
+    }
+}

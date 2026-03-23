@@ -91,9 +91,13 @@ def build_manifest(
 
         for idx in range(0, 11):
             image_path = render_dir / f"rerender_{idx:04d}.webp"
+            image_path_2 = render_dir / f"render_{idx:04d}.webp"
             if not image_path.exists():
                 continue
+            if not image_path_2.exists():
+                continue
             image_path = image_path.resolve()
+            image_path_2 = image_path_2.resolve()
 
             file_name = f"{folder_name}.glb" if mesh_path is not None else folder_name
             entries.append(
@@ -104,6 +108,19 @@ def build_manifest(
                     "mesh_path": str(mesh_path) if mesh_path is not None else None,
                     "surface_path": str(surface_path.resolve()),
                     "image_path": str(image_path),
+                    "iou_mean": 0.0,
+                    "iou_max": 0.0,
+                }
+            )
+
+            entries.append(
+                {
+                    "file": file_name,
+                    "num_parts": num_parts,
+                    "valid": True,
+                    "mesh_path": str(mesh_path) if mesh_path is not None else None,
+                    "surface_path": str(surface_path.resolve()),
+                    "image_path": str(image_path_2),
                     "iou_mean": 0.0,
                     "iou_max": 0.0,
                 }

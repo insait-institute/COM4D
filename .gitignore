@@ -9,7 +9,6 @@ results*/
 breathing_sphere*/
 *_frames_out/
 dog_test/
-inference/
 inference_vae/
 inference_vae_intp/
 mini_dataset/
